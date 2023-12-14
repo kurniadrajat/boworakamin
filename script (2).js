@@ -25,6 +25,10 @@ function deposit(accountNumber, amount) {
   }
 }
 
+function test(){
+  console.log('haha')
+}
+
 function withdraw(accountNumber, amount) {
   let customer = findCustomerByAccountNumber(accountNumber);
   if (customer) {
